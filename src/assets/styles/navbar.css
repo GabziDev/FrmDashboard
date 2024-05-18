@@ -1,0 +1,36 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.123);
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+}
+
+.navbar ul {
+  height: 40px;
+  align-items: center;
+  list-style: none;
+  width: 400px;
+  margin-right: 50px;
+  background-color: rgba(0, 255, 255, 0);
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 8px;
+}
+
+.navbar ul li a:hover {
+    color: rgb(211, 211, 211);
+}
+
+.navbar ul li .active { 
+    background-color: rgba(255, 255, 255, 0.089);
+    color: rgb(211, 211, 211);
+    border-radius: 20px;
+}
