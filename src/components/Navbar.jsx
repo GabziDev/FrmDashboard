@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import "../assets/styles/navbar.css";
 
 export default function Navbar() {
@@ -15,19 +14,19 @@ export default function Navbar() {
       <nav className="navbar">
         <ul>
           <li>
-            <Link className={currentPage === "/" ? "active" : ""}>
+            <a href="/" className={currentPage === "/" ? "active" : ""}>
               Classement
-            </Link>
+            </a>
           </li>
           <li>
-            <Link className={currentPage === "/bot/status" ? "active" : ""}>
+            <a href="/bot/status" className={currentPage === "/bot/status" ? "active" : ""}>
               Status
-            </Link>
+            </a>
           </li>
           <li>
-            <Link className={currentPage === "/about" ? "active" : ""}>
+            <a href="/about" className={currentPage === "/about" ? "active" : ""}>
               À Propos
-            </Link>
+            </a>
           </li>
         </ul>
       </nav>

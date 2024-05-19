@@ -1,0 +1,55 @@
+.container {
+    margin: 60px auto;
+    max-width: 700px;
+}
+
+.container h1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.classement {
+    margin: 30px auto;
+}
+
+.classement table {
+    border-collapse: separate;
+    border-spacing: 0 6px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.classement table tr th,
+.classement table tr td {
+    padding: 8px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.classement table tr td {
+    height: 50px;
+    background-color: #202020;
+}
+
+.classement table tr th:first-child,
+.classement table tr td:first-child {
+    text-align: left;
+}
+
+.classement table tr th:nth-child(2),
+.classement table tr th:nth-child(3),
+.classement table tr td:nth-child(2),
+.classement table tr td:nth-child(3) {
+    text-align: right;
+}
+
+.classement table .line td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.classement table .line td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
